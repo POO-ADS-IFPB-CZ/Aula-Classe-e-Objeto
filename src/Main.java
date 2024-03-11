@@ -10,5 +10,9 @@ public class Main {
         Funcionario funcionario1 = new Tecnico("333.333.333-03", "Maria",
                 321, LocalDate.of(2000,1,1),
                 2000, "Almoxarifado");
+
+        System.out.println(funcionario.calcularPagamento());
+        System.out.println(funcionario1.calcularPagamento());
+
     }
 }

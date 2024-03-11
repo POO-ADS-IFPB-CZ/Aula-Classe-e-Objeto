@@ -15,4 +15,13 @@ public class Professor extends Funcionario{
     public void setTitulacao(String titulacao) {
         this.titulacao = titulacao;
     }
+
+    @Override
+    public float calcularPagamento(){
+        if(titulacao == "Mestrado"){
+            return getSalario()+1000;
+        }
+        return getSalario();
+    }
+
 }
