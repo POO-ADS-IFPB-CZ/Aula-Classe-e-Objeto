@@ -1,6 +1,10 @@
+package model;
+
+import model.Funcionario;
+
 import java.time.LocalDate;
 
-public class Professor extends Funcionario{
+public class Professor extends Funcionario {
     private String titulacao;
 
     public Professor(int matricula, String nome, String cpf,

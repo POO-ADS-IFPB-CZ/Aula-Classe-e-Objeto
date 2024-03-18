@@ -1,3 +1,8 @@
+package model;
+
+import model.Aluno;
+import model.Professor;
+
 public class Turma {
 
     private Professor professor;

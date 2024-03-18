@@ -1,3 +1,7 @@
+package model;
+
+import model.Pessoa;
+
 import java.time.LocalDate;
 public class Aluno extends Pessoa {
     private String curso;

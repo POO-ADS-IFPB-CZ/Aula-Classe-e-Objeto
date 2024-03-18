@@ -1,3 +1,9 @@
+package view;
+
+import model.Funcionario;
+import model.Professor;
+import model.Tecnico;
+
 import java.time.LocalDate;
 
 public class Main {
