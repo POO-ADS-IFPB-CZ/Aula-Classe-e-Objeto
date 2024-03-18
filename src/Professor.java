@@ -19,9 +19,9 @@ public class Professor extends Funcionario{
     @Override
     public float calcularPagamento(){
         if(titulacao == "Mestrado"){
-            return getSalario()+1000;
+            return salario+1000;
         }
-        return getSalario();
+        return salario;
     }
 
 }

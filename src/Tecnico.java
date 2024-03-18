@@ -16,4 +16,13 @@ public class Tecnico extends Funcionario {
     public void setSetor(String setor) {
         this.setor = setor;
     }
+
+    @Override
+    public float calcularPagamento(){
+        if(setor == "Laboratório de Química"){
+            return salario+500;
+        }
+        return salario;
+    }
+
 }

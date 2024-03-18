@@ -1,8 +1,8 @@
 import java.time.LocalDate;
 
-public class Funcionario extends Pessoa{
+public abstract class Funcionario extends Pessoa{
 
-    private float salario;
+    protected float salario;
 
     public Funcionario(String nome, String cpf, LocalDate nascimento,
                        int matricula, float salario){
@@ -18,8 +18,6 @@ public class Funcionario extends Pessoa{
         this.salario = salario;
     }
 
-    public float calcularPagamento(){
-        return salario;
-    }
+    public abstract float calcularPagamento();
 
 }
